@@ -14,6 +14,17 @@
 		172A00E32C48599E00D0E010 /* AtmosphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A00E22C48599E00D0E010 /* AtmosphereTests.swift */; };
 		172A00ED2C48599E00D0E010 /* AtmosphereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A00EC2C48599E00D0E010 /* AtmosphereUITests.swift */; };
 		172A00EF2C48599E00D0E010 /* AtmosphereUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A00EE2C48599E00D0E010 /* AtmosphereUITestsLaunchTests.swift */; };
+		172CFCBB2C4C4AA3009FBCDD /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CFCBA2C4C4AA3009FBCDD /* Network.swift */; };
+		172CFCBD2C4C4B17009FBCDD /* Network+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CFCBC2C4C4B17009FBCDD /* Network+Extensions.swift */; };
+		172CFCBF2C4C4FA6009FBCDD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CFCBE2C4C4FA6009FBCDD /* NetworkManager.swift */; };
+		1788A4672C4CE44700BCFE02 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788A4662C4CE44700BCFE02 /* WeatherResponse.swift */; };
+		1788A4692C4CE45900BCFE02 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788A4682C4CE45900BCFE02 /* Weather.swift */; };
+		17996E152C4CE85300846694 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17996E142C4CE85300846694 /* DailyWeather.swift */; };
+		17996E172C4CE87000846694 /* WeatherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17996E162C4CE87000846694 /* WeatherDetails.swift */; };
+		17996E192C4CE8B500846694 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17996E182C4CE8B500846694 /* Temperature.swift */; };
+		17996E1C2C4D029500846694 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17996E1B2C4D029500846694 /* CityViewModel.swift */; };
+		17996E1F2C4DADE000846694 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 17996E1E2C4DADE000846694 /* Lottie */; };
+		17996E222C4DAEC400846694 /* LottieVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17996E212C4DAEC400846694 /* LottieVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,16 @@
 		172A00E82C48599E00D0E010 /* AtmosphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtmosphereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		172A00EC2C48599E00D0E010 /* AtmosphereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphereUITests.swift; sourceTree = "<group>"; };
 		172A00EE2C48599E00D0E010 /* AtmosphereUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphereUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		172CFCBA2C4C4AA3009FBCDD /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		172CFCBC2C4C4B17009FBCDD /* Network+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Extensions.swift"; sourceTree = "<group>"; };
+		172CFCBE2C4C4FA6009FBCDD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1788A4662C4CE44700BCFE02 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		1788A4682C4CE45900BCFE02 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		17996E142C4CE85300846694 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		17996E162C4CE87000846694 /* WeatherDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetails.swift; sourceTree = "<group>"; };
+		17996E182C4CE8B500846694 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		17996E1B2C4D029500846694 /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		17996E212C4DAEC400846694 /* LottieVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17996E1F2C4DADE000846694 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +116,13 @@
 		172A00D02C48599600D0E010 /* Atmosphere */ = {
 			isa = PBXGroup;
 			children = (
+				172CFCB92C4C49FE009FBCDD /* Resources */,
+				172CFCB52C4C498D009FBCDD /* Network */,
+				172CFCB82C4C49CB009FBCDD /* Model */,
+				172CFCB72C4C49BB009FBCDD /* ViewModel */,
+				172CFCB62C4C499D009FBCDD /* Views */,
 				172A00D12C48599600D0E010 /* AtmosphereApp.swift */,
 				172A00D32C48599600D0E010 /* ContentView.swift */,
-				172A00D52C48599D00D0E010 /* Assets.xcassets */,
 				172A00D72C48599D00D0E010 /* Preview Content */,
 			);
 			path = Atmosphere;
@@ -127,6 +153,68 @@
 			path = AtmosphereUITests;
 			sourceTree = "<group>";
 		};
+		172CFCB52C4C498D009FBCDD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				172CFCBA2C4C4AA3009FBCDD /* Network.swift */,
+				172CFCBC2C4C4B17009FBCDD /* Network+Extensions.swift */,
+				172CFCBE2C4C4FA6009FBCDD /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		172CFCB62C4C499D009FBCDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17996E202C4DAEA100846694 /* LottieVIew */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		172CFCB72C4C49BB009FBCDD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				17996E1A2C4D026A00846694 /* CityViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		172CFCB82C4C49CB009FBCDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1788A4662C4CE44700BCFE02 /* WeatherResponse.swift */,
+				1788A4682C4CE45900BCFE02 /* Weather.swift */,
+				17996E142C4CE85300846694 /* DailyWeather.swift */,
+				17996E162C4CE87000846694 /* WeatherDetails.swift */,
+				17996E182C4CE8B500846694 /* Temperature.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		172CFCB92C4C49FE009FBCDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				172A00D52C48599D00D0E010 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17996E1A2C4D026A00846694 /* CityViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				17996E1B2C4D029500846694 /* CityViewModel.swift */,
+			);
+			path = CityViewModel;
+			sourceTree = "<group>";
+		};
+		17996E202C4DAEA100846694 /* LottieVIew */ = {
+			isa = PBXGroup;
+			children = (
+				17996E212C4DAEC400846694 /* LottieVIew.swift */,
+			);
+			path = LottieVIew;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +231,9 @@
 			dependencies = (
 			);
 			name = Atmosphere;
+			packageProductDependencies = (
+				17996E1E2C4DADE000846694 /* Lottie */,
+			);
 			productName = Atmosphere;
 			productReference = 172A00CE2C48599600D0E010 /* Atmosphere.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +306,9 @@
 				Base,
 			);
 			mainGroup = 172A00C52C48599600D0E010;
+			packageReferences = (
+				17996E1D2C4DADE000846694 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 172A00CF2C48599600D0E010 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +351,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17996E152C4CE85300846694 /* DailyWeather.swift in Sources */,
+				17996E1C2C4D029500846694 /* CityViewModel.swift in Sources */,
+				172CFCBD2C4C4B17009FBCDD /* Network+Extensions.swift in Sources */,
+				1788A4672C4CE44700BCFE02 /* WeatherResponse.swift in Sources */,
+				17996E172C4CE87000846694 /* WeatherDetails.swift in Sources */,
 				172A00D42C48599600D0E010 /* ContentView.swift in Sources */,
+				172CFCBF2C4C4FA6009FBCDD /* NetworkManager.swift in Sources */,
+				17996E222C4DAEC400846694 /* LottieVIew.swift in Sources */,
 				172A00D22C48599600D0E010 /* AtmosphereApp.swift in Sources */,
+				172CFCBB2C4C4AA3009FBCDD /* Network.swift in Sources */,
+				17996E192C4CE8B500846694 /* Temperature.swift in Sources */,
+				1788A4692C4CE45900BCFE02 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -577,6 +681,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17996E1D2C4DADE000846694 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17996E1E2C4DADE000846694 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17996E1D2C4DADE000846694 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 172A00C62C48599600D0E010 /* Project object */;
 }
