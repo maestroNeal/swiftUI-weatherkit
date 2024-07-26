@@ -25,6 +25,21 @@
 		17996E1C2C4D029500846694 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17996E1B2C4D029500846694 /* CityViewModel.swift */; };
 		17996E1F2C4DADE000846694 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 17996E1E2C4DADE000846694 /* Lottie */; };
 		17996E222C4DAEC400846694 /* LottieVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17996E212C4DAEC400846694 /* LottieVIew.swift */; };
+		CC07A74E2C53840B004E2A7B /* spring.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A73F2C53840A004E2A7B /* spring.json */; };
+		CC07A74F2C53840B004E2A7B /* butterFly.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7402C53840A004E2A7B /* butterFly.json */; };
+		CC07A7502C53840B004E2A7B /* rainbow.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7412C53840A004E2A7B /* rainbow.json */; };
+		CC07A7512C53840B004E2A7B /* sunWithCluds.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7422C53840A004E2A7B /* sunWithCluds.json */; };
+		CC07A7522C53840B004E2A7B /* sunny.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7432C53840A004E2A7B /* sunny.json */; };
+		CC07A7532C53840B004E2A7B /* winds.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7442C53840A004E2A7B /* winds.json */; };
+		CC07A7542C53840B004E2A7B /* normalRainy.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7452C53840A004E2A7B /* normalRainy.json */; };
+		CC07A7552C53840B004E2A7B /* rain.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7462C53840A004E2A7B /* rain.json */; };
+		CC07A7562C53840B004E2A7B /* snow.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7472C53840A004E2A7B /* snow.json */; };
+		CC07A7572C53840B004E2A7B /* summer.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7482C53840A004E2A7B /* summer.json */; };
+		CC07A7582C53840B004E2A7B /* flyingBirds.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A7492C53840A004E2A7B /* flyingBirds.json */; };
+		CC07A7592C53840B004E2A7B /* fall.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A74A2C53840A004E2A7B /* fall.json */; };
+		CC07A75A2C53840B004E2A7B /* fall-tree.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A74B2C53840A004E2A7B /* fall-tree.json */; };
+		CC07A75B2C53840B004E2A7B /* night.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A74C2C53840A004E2A7B /* night.json */; };
+		CC07A75C2C53840B004E2A7B /* winter.json in Resources */ = {isa = PBXBuildFile; fileRef = CC07A74D2C53840A004E2A7B /* winter.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +80,21 @@
 		17996E182C4CE8B500846694 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		17996E1B2C4D029500846694 /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
 		17996E212C4DAEC400846694 /* LottieVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieVIew.swift; sourceTree = "<group>"; };
+		CC07A73F2C53840A004E2A7B /* spring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spring.json; sourceTree = "<group>"; };
+		CC07A7402C53840A004E2A7B /* butterFly.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = butterFly.json; sourceTree = "<group>"; };
+		CC07A7412C53840A004E2A7B /* rainbow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rainbow.json; sourceTree = "<group>"; };
+		CC07A7422C53840A004E2A7B /* sunWithCluds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunWithCluds.json; sourceTree = "<group>"; };
+		CC07A7432C53840A004E2A7B /* sunny.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunny.json; sourceTree = "<group>"; };
+		CC07A7442C53840A004E2A7B /* winds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winds.json; sourceTree = "<group>"; };
+		CC07A7452C53840A004E2A7B /* normalRainy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = normalRainy.json; sourceTree = "<group>"; };
+		CC07A7462C53840A004E2A7B /* rain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rain.json; sourceTree = "<group>"; };
+		CC07A7472C53840A004E2A7B /* snow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = snow.json; sourceTree = "<group>"; };
+		CC07A7482C53840A004E2A7B /* summer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = summer.json; sourceTree = "<group>"; };
+		CC07A7492C53840A004E2A7B /* flyingBirds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flyingBirds.json; sourceTree = "<group>"; };
+		CC07A74A2C53840A004E2A7B /* fall.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fall.json; sourceTree = "<group>"; };
+		CC07A74B2C53840A004E2A7B /* fall-tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "fall-tree.json"; sourceTree = "<group>"; };
+		CC07A74C2C53840A004E2A7B /* night.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = night.json; sourceTree = "<group>"; };
+		CC07A74D2C53840A004E2A7B /* winter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winter.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +224,8 @@
 		172CFCB92C4C49FE009FBCDD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				172A00D52C48599D00D0E010 /* Assets.xcassets */,
+				CC07A73E2C53764F004E2A7B /* Icons */,
+				CC07A73D2C537478004E2A7B /* Animations */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -213,6 +244,36 @@
 				17996E212C4DAEC400846694 /* LottieVIew.swift */,
 			);
 			path = LottieVIew;
+			sourceTree = "<group>";
+		};
+		CC07A73D2C537478004E2A7B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CC07A7402C53840A004E2A7B /* butterFly.json */,
+				CC07A74B2C53840A004E2A7B /* fall-tree.json */,
+				CC07A74A2C53840A004E2A7B /* fall.json */,
+				CC07A7492C53840A004E2A7B /* flyingBirds.json */,
+				CC07A74C2C53840A004E2A7B /* night.json */,
+				CC07A7452C53840A004E2A7B /* normalRainy.json */,
+				CC07A7462C53840A004E2A7B /* rain.json */,
+				CC07A7412C53840A004E2A7B /* rainbow.json */,
+				CC07A7472C53840A004E2A7B /* snow.json */,
+				CC07A73F2C53840A004E2A7B /* spring.json */,
+				CC07A7482C53840A004E2A7B /* summer.json */,
+				CC07A7432C53840A004E2A7B /* sunny.json */,
+				CC07A7422C53840A004E2A7B /* sunWithCluds.json */,
+				CC07A7442C53840A004E2A7B /* winds.json */,
+				CC07A74D2C53840A004E2A7B /* winter.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		CC07A73E2C53764F004E2A7B /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				172A00D52C48599D00D0E010 /* Assets.xcassets */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,8 +386,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC07A7572C53840B004E2A7B /* summer.json in Resources */,
 				172A00D92C48599D00D0E010 /* Preview Assets.xcassets in Resources */,
+				CC07A74E2C53840B004E2A7B /* spring.json in Resources */,
+				CC07A75C2C53840B004E2A7B /* winter.json in Resources */,
+				CC07A75A2C53840B004E2A7B /* fall-tree.json in Resources */,
 				172A00D62C48599D00D0E010 /* Assets.xcassets in Resources */,
+				CC07A7542C53840B004E2A7B /* normalRainy.json in Resources */,
+				CC07A7502C53840B004E2A7B /* rainbow.json in Resources */,
+				CC07A7512C53840B004E2A7B /* sunWithCluds.json in Resources */,
+				CC07A7582C53840B004E2A7B /* flyingBirds.json in Resources */,
+				CC07A7592C53840B004E2A7B /* fall.json in Resources */,
+				CC07A74F2C53840B004E2A7B /* butterFly.json in Resources */,
+				CC07A7522C53840B004E2A7B /* sunny.json in Resources */,
+				CC07A75B2C53840B004E2A7B /* night.json in Resources */,
+				CC07A7532C53840B004E2A7B /* winds.json in Resources */,
+				CC07A7552C53840B004E2A7B /* rain.json in Resources */,
+				CC07A7562C53840B004E2A7B /* snow.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
